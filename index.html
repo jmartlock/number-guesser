@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Guess a Number</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Guess the Number!</h1>
+            <h2>1 to 99 | Seven Attempts</h2>
+        </header>
+
+        <div id="main">
+            <div class="input-row">
+                <label for="playerGuess">ENTER GUESS:</label>
+                <input type="text" id="playerGuess" size="5">
+                <button id="guessBtn">GO</button>
+            </div>
+
+            <button id="resetBtn">PLAY AGAIN</button>
+
+            <div id="feedback"></div>
+            <div id="attemptsLeft"></div>
+
+            <hr class="divider">
+
+            <div class="guesses-row">
+                PREV: <span id="guesses"></span>
+            </div>
+
+            <div class="scoreboard">
+                <div class="score-item">
+                    <span class="score-label">Wins</span>
+                    <span class="score-value" id="wins">0</span>
+                </div>
+                <div class="score-item">
+                    <span class="score-label">Losses</span>
+                    <span class="score-value" id="losses">0</span>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

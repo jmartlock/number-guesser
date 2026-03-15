@@ -1,0 +1,60 @@
+body {
+    background-color: navy;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+#main {
+    background-color: blue;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#playerGuess {
+    font-size: 20px;
+    width: 60px;
+}
+
+#guessBtn {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+
+#resetBtn {
+    background-color: orange;
+    color: black;
+    font-size: 18px;
+}
+
+#feedback {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#attemptsLeft {
+    color: cyan;
+}
+
+#wins {
+    color: lime;
+}
+
+#losses {
+    color: red;
+}
